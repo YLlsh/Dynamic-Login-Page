@@ -1,0 +1,135 @@
+  * {
+
+      font-family: "Segoe UI", sans-serif;
+  }
+
+  body {
+      background: #e9e9f6;
+      display: flex;
+      height: 100vh;
+      align-items: center;
+      justify-content: center;
+  }
+
+  .main_container {
+      display: flex;
+      background: #a4a4d9;
+      width: 610px;
+      padding: 30px;
+      border-radius: 10px;
+      box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+      align-items: center;
+      justify-content: space-around;
+      align-items: flex-end;
+  }
+
+  .log .regi {
+      width: auto;
+  }
+
+  .bbox {
+      display: flex;
+      flex-direction: column;
+      width: 300px;
+      height: 400px;
+  }
+
+  .form-box {
+      margin-top: auto;
+  }
+
+  .form-box h2 {
+      font-family: cursive;
+      font-size: 34px;
+      color: #132555;
+      width: max-content;
+      margin-bottom: 20px;
+      text-align: center;
+  }
+
+  .form-box input {
+      width: -webkit-fill-available;
+      padding: 12px;
+      margin: 10px 0;
+      border: 1px solid #ddd;
+      border-radius: 8px;
+  }
+
+  .form-box button {
+      width: -webkit-fill-available;
+      padding: 12px;
+      background-color: #1325558c;
+      color: white;
+      border: none;
+      border-radius: 8px;
+      cursor: pointer;
+      transition: 0.3s ease;
+  }
+
+  .form-box button:hover {
+      background-color: #45a049;
+  }
+
+  .form-box p {
+      margin-top: 15px;
+      text-align: center;
+      width: max-content;
+  }
+
+  .form-box a {
+      font-family: cursive;
+
+      color: #ffffff;
+      text-decoration: none;
+  }
+
+
+  #plain_log {
+      background-color: #4f4fb4;
+      border-bottom: 1px solid white;
+      border-radius: 8px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      transition: background-color 0.4s ease;
+
+  }
+
+
+
+  #plain_log h3 {
+      font-family: cursive;
+      font-size: 34px;
+      color: #132555;
+      font-size: 50px;
+      color: #95a5ff;
+      font-family: cursive;
+  }
+
+  #plain_register {
+      display: none;
+      background-color: #e9e9f6;
+      border-bottom: 1px solid white;
+      border-radius: 8px;
+      justify-content: center;
+      align-items: center;
+      transition: background-color 0.4s ease;
+
+  }
+
+  #plain_register h3 {
+      font-size: 50px;
+      color: #95a5ff;
+      font-family: cursive;
+  }
+
+  #log {
+      transform: scale(0.4);
+      transition: transform 0.2s ease;
+      display: none;
+  }
+
+  #regi {
+      transform: scale(1);
+      transition: transform 0.2s ease;
+  }
